@@ -1,6 +1,6 @@
 # socket-io-example
 
-Using socket.io in Exponent, see the it in action: https://getexponent.com/@community/socket-io-example
+Using socket.io in Expo, see the it in action: https://expo.io/@community/socket-io-example
 
 ### Note: https required
 
