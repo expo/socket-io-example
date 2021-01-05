@@ -1,4 +1,3 @@
-import Expo from 'expo';
 import React from 'react';
 import { StyleSheet, Text, View } from 'react-native';
 const io = require('socket.io-client');
@@ -13,7 +12,7 @@ class App extends React.Component {
     // or replace with your local ngrok url, eg: https://brent123.ngrok.io
     // start ngrok with ngrok http 3000 --subdomain=brent123
     // where the subdomain is whatever subdomain you want
-    const socket = io('https://socket-io-expo-backend-dtyxsdtzxb.now.sh', {
+    const socket = io('https://bf2ea5c8351d.ngrok.io/', {
       transports: ['websocket'],
     });
 
@@ -48,4 +47,4 @@ const styles = StyleSheet.create({
   },
 });
 
-Expo.registerRootComponent(App);
+export default App
